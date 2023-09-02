@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL PORTFOLIO</title>
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+    <div class="hero">
+        <nav>
+            <h2 class="logo">Portfo<span>lio</span></h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a  href="#">About us</a></li>
+                <li><a   href="#">Services</a></li>
+                <li><a  href="#">Skills</a></li>
+                <li><a   href="#">Contact us</a></li>
+            </ul>
+            <a href="#" class="btn">Subscribe</a>
+        </nav>
+        <div class="content">
+            <h4>Hello, my name is </h4>
+            <h1>Nimrta <span>Chhabria</span></h1>
+            <h2>I'm a Web Developer.</h2>
+            <div class="news">
+                <form>
+                    <input type="email" name="email" id="mail" placeholder="enter your email">
+                    <input type="submit" value="Let's Start">
+                </form>
+            </div>
+        </div>
+    </div>
+    <section class="about ">
+        <div class="main ">
+            <img  src="data:image/jpeg;base64,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">
+            <!-- <img src="Snapchat-2056390519 (1).jpg"> -->
+            <div class="about-text col-lg-6">
+                <h3>About me</h3>
+                <h5>Developer <span>& Designer</span></h5>
+                <p> Iam frontend web developer. I can Builds, designs, and maintains all websites and software
+                    applications.I can provide clean code and pixel perfect design.A responsive design makes your
+                    website assesable to all users,regardless of their device.</p>
+                <button class="button">Let's talk</button>
+            </div>
+        </div>
+    </section>
+    <div class="service ">
+        <div class="title">
+            <h2>Our Services</h2>
+        </div>
+        <div class="box">
+            <div class="card">
+                <i class="fa fa-bars"></i>
+                <h5>Web development</h5>
+                <div class="para">
+                    <p>Every website will be built with two primary goals: firstly it needs to across
+                        all devices .secondly it needs to be first as possible.
+                    </p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read more</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <i class='fas fa-users'></i>
+                <h5>Python</h5>
+                <div class="para">
+                    <p>Python is fast enough for our site and allows us to produce maintainable features in record times, with a minimum of developers.
+                    </p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read more</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <i class="fa fa-bars"></i>
+                <h5>Java development</h5>
+                <div class="para">
+                    <p>"However, when Java is promoted as the sole programming language, its flaws and limitations become serious." ~ Bjarne Stroustrup
+                    </p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read more</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="skills_section">
+        <div class="skills_head">
+            <h2>My <span>Skills</span></h2>
+            <p>Here is my skills to represent my Expertise</p>
+        </div>
+
+        <div class="skills_main">
+            <div class="skill_bar">
+                <div class="info">
+                    <p>HTML</p>
+                    <P>90%</P>
+                </div>
+                <div class="bar">
+                    <span class="html"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p>CSS</p>
+                    <P>85%</P>
+                </div>
+                <div class="bar">
+                    <span class="css"></span>
+                </div>
+            </div>
+           
+            <div class="skill_bar">
+                <div class="info">
+                    <p>Java Script</p>
+                    <P>80%</P>
+                </div>
+                <div class="bar">
+                    <span class="js"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p>React js</p>
+                    <P>75%</P>
+                </div>
+                <div class="bar">
+                    <span class="react"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p>Node js</p>
+                    <P>70%</P>
+                </div>
+                <div class="bar">
+                    <span class="node"></span>
+                </div>
+            </div>
+          
+           
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-me">
+        <p>Let me get you a beautiful website</p>
+        <div class="con-container">
+            <p>If you have any questions or inquiries, feel free to get in touch with me.</p>
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>     
+        </form>
+        </div>
+        <a href="#" class="button">Hire me</a>
+    </div>
+    <footer>
+        <p>Nimrta Chhabria </p>
+        <p>For  More HTML,CSS and other coding material- please click on link below to subscribe and follow my channels.</p>
+  <div class="social">
+    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+  </div>
+  <p class="end">Copyright by Nimrta chhabria</p>
+  <p class="done">Made with &hearts; by Nimrta chhabria</p>
+    </footer>
+</body>
+
+</html>
